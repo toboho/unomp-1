@@ -20,7 +20,7 @@ node init.js
 
 ## #永久开启矿池方法，安装forever
 ```
-	sudo npm install forever -g
-	sudo forever start init.js 开启矿池
-	sudo forever stop init.js  关闭矿池
+sudo npm install forever -g
+sudo forever start init.js 开启矿池
+sudo forever stop init.js  关闭矿池
 ```  
