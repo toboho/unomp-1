@@ -55,3 +55,18 @@ sudo nano /etc/fstab
 Ctrl+o 保存
 Ctrl+x 退出
 ```
+-------
+### #算法
+```
+✓ SHA256 (Bitcoin, Peercoin/PPCoin, Terracoin, etc..)(I've gotten reports Freicoin is not working)
+✓ Scrypt (Litecoin, Dogecoin, Feathercoin, etc..)
+✓ Scrypt-Jane (YaCoin, CopperBars, Pennies, Tickets, etc..)
+✓ Scrypt-N (Vertcoin [VTC])
+✓ Quark (Quarkcoin [QRK])
+✓ X11 (Darkcoin [DRK], Hirocoin, Limecoin)
+✓ X13 (MaruCoin, BoostCoin)
+✓ NIST5 (Talkcoin)
+✓ Keccak (Maxcoin [MAX], HelixCoin, CryptoMeth, Galleon, 365coin, Slothcoin, BitcointalkCoin)
+✓ Skein (Skeincoin [SKC])
+✓ Groestl (Groestlcoin [GRS])
+```
