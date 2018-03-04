@@ -280,6 +280,8 @@ this.getCoins = function(cback){
                             name: coinName,
                             symbol: poolConfigs[coinName].coin.symbol.toUpperCase(),
                             algorithm: poolConfigs[coinName].coin.algorithm,
+							paymentInterval:poolConfigs[coinName].paymentProcessing.paymentInterval,
+							minimumPayment:poolConfigs[coinName].paymentProcessing.minimumPayment,							
                             hashrates: replies[i + 1],
                             poolStats: {
                                 validShares: replies[i + 2] ? (replies[i + 2].validShares || 0) : 0,
