@@ -15,6 +15,8 @@ cd unomp
 npm update
 
 node init.js
+
+如果端口端口 <1024 请用sudo node init.js
 ```
 -------
 
