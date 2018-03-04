@@ -1,8 +1,10 @@
-## unified-node-open-mining-portal
+## #关于
+```
 Modify the theme style
-Forked from https://github.com/UNOMP/unified-node-open-mining-portal
+原版来自 https://github.com/UNOMP/unified-node-open-mining-portal
+```
 -------
-## #Install
+## #安装
 ```
 sudo apt-get update
 sudo apt-get install build-essential libssl-dev npm nodejs nodejs-legacy
