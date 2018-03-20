@@ -8,7 +8,7 @@ Modify the theme style
 ```
 sudo apt-get update
 sudo apt-get install build-essential libssl-dev npm nodejs nodejs-legacy redis-server
-curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.8/install.sh | bash
+curl https://raw.githubusercontent.com/creationix/nvm/v0.16.1/install.sh | sh
 source ~/.profile
 nvm install 0.10.25
 nvm use 0.10.25
