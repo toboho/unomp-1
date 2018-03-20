@@ -258,8 +258,6 @@
 			'scroll down' : function () { $('html, body').animate({ scrollTop: $(document).height() }, 100);},
 			'hide navigation' : function() { 
 				if ($.root_.hasClass("container") && !$.root_.hasClass("menu-on-top")){
-					$('span.minifyme').trigger("click");
-				} else {
 					$('#hide-menu > span > a').trigger("click"); 
 				}
 			},

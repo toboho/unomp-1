@@ -38,14 +38,14 @@
 		<link rel="stylesheet" href="/static/nvd3.css">
 	</head>
 	
-	<body class="">
+	<body class="smart-style-1">
 		<!-- Left panel : Navigation area -->
 		<!-- Note: This width of the aside area can be adjusted through LESS variables -->
 		<aside id="left-panel">
 			<nav>
 				<ul>
 					<li class="{{? it.selected === 'index' }}active{{?}}">
-							<a href="/"><i class="fa fa-home"></i> <span class="menu-item-parent">首页</span></a>
+						<a href="/"><i class="fa fa-home"></i> <span class="menu-item-parent">首页</span></a>
 					</li>
 					<li class="{{? it.selected === 'getting_started' }}active{{?}}">
 						<a href="/getting_started"><i class="fa fa-rocket"></i> <span class="menu-item-parent">挖矿向导</span></a>
@@ -61,9 +61,6 @@
 					</li>
 				</ul>
 			</nav>
-			<span class="minifyme" data-action="minifyMenu"> 
-				<i class="fa fa-arrow-circle-left hit"></i> 
-			</span>
 
 		</aside>
 		<!-- END NAVIGATION -->
@@ -75,7 +72,7 @@
 				<div class="pull-left">				
 				<!-- collapse menu button -->
 				<div id="hide-menu" class="btn-header pull-left">
-					<span> <a href="javascript:void(0);" data-action="toggleMenu" title="Collapse Menu"><i class="fa fa-reorder"></i></a> </span>
+					<span> <a href="javascript:void(0);" data-action="toggleMenu"><i class="fa fa-reorder"></i></a> </span>
 				</div>
 				<!-- end collapse menu -->
 				</div>
