@@ -14,7 +14,7 @@ nvm install 0.10.25
 nvm use 0.10.25
 nvm alias default 0.10.25
 nvm use default
-git clone https://github.com/rice-mouse/unified-node-open-mining-portal.git unomp
+git clone https://github.com/rice-mouse/unomp.git
 cd unomp
 npm update
 
