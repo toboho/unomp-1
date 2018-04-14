@@ -7,7 +7,7 @@ Modify the theme style
 ## #安装
 ```
 sudo apt-get update
-sudo apt-get install build-essential libssl-dev npm nodejs nodejs-legacy redis-server
+sudo apt-get install build-essential libssl-dev npm nodejs nodejs-legacy redis-server curl git
 curl https://raw.githubusercontent.com/creationix/nvm/v0.16.1/install.sh | sh
 source ~/.profile
 nvm install 0.10.48
